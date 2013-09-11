@@ -1,2 +1,1 @@
-jbuehler.github.io
-==================
+This is my Senior Project for Herzing University. A professional personal website.
