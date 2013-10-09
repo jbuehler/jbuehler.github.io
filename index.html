@@ -7,6 +7,29 @@
 	<!-- Temp commenting out the reset until it is needed later.-->
 		<!--<link rel="stylesheet" type ="text/css" href="assets/css/reset.css">-->
 		<link rel="stylesheet" type ="text/css" href="assets/css/style.css">
+	<!-- CSS for Photoswipe -->
+		<link rel="stylesheet" type="text/css" href="assets/css/photoswipe.css">
+	<!-- Lib / Scripts for Photoswipe -->
+		<script type ="text/javascript" src="assets/lib/klass.min.js"></script>
+		<script type ="text/javascript" src="assets/code.photoswipe-3.0.5.js"></script>
+
+		<script type="text/javascript">
+
+		(function(window, PhotoSwipe){
+			
+			document.addEventListener('DOMContentLoaded', function(){
+			
+				var
+					options = {},
+					gallery1Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery1 a'), options ),
+					gallery2Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery2 a'), options );
+
+			}, false);
+				
+		}(window, window.Code.PhotoSwipe));
+		
+		</script>
+
 	</head>
 	<body>
 		<header>
@@ -30,12 +53,19 @@
 	</div>
 
 	<!--May change this to an UL -->
-	
-		<h2>game</h2>
+	<h2>Hello, New World</h2>
+		<ul id ="Gallery1" class="gallery">
+			<li><a href="assets/img/screenshots/HNWss1.png"><img src="assets/img/screenshots/HNWss1thumb.png" alt="Hello New World 01" /></a></li>
+			<li><a href="assets/img/screenshots/HNWss2.png"><img src="assets/img/screenshots/HNWss2thumb.png" alt="Hello New World 02" /></a></li>
+			<li><a href="assets/img/screenshots/HNWss3.png"><img src="assets/img/screenshots/HNWss3thumb.png" alt="Hello New World 03" /></a></li>
+		</ul>
 
-		<h2>design</h2>
-
-		<h2>misc</h2>
+	<h2>Jolly Jim's Kitchen</h2>
+		<ul id ="Gallery2" class="gallery">
+			<li><a href="assets/img/screenshots/JJKss1.png"><img src="assets/img/screenshots/JJKss1thumb.png" alt="Jolly Jim's Kitchen 01" /></a></li>
+			<li><a href="assets/img/screenshots/JJKss2.png"><img src="assets/img/screenshots/JJKss2thumb.png" alt="Jolly Jim's Kitchen 02" /></a></li>
+			<li><a href="assets/img/screenshots/JJKss3.png"><img src="assets/img/screenshots/JJKss3thumb.png" alt="Jolly Jim's Kitchen 03" /></a></li>
+		</ul>
 		
 		<div id="info">
 			<h2>info</h2>
