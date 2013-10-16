@@ -12,8 +12,7 @@ a {
 }
 
 em {
-	/*color:#B77029;*/
-	color:#B77029;
+	color: #B77029;
 	font-style: normal;
 }
 
@@ -25,8 +24,9 @@ header {
 	position: relative;
 	top: 0px;
 	width: 100%;
-	background: #2E2E2E;
+	background: #302110;
 	font-family: Helvetica, Arial, sans-serif;
+	color: #feeace;
 }
 
 header .content {
@@ -37,8 +37,7 @@ header .content {
 
 }
 	nav {
-		color:#EEEEEE;
-		top: 30%;
+		color: #EEEEEE;
 		margin-left: auto;
 		margin-right: auto;
 		position: absolute;
@@ -49,7 +48,7 @@ header .content {
 		}
 
 #logo {
-	
+	background: #2E2E2E;
 }
 	#logo #fName {
 		color: #FC9D15;
@@ -60,8 +59,8 @@ header .content {
 	}
 
 #tagline {
-	background:#FDC069;
-	width:960px;
+	background: #FDC069;
+	width: 960px;
 }
 
 body {
@@ -70,7 +69,7 @@ body {
 	height: 100%;
 	*/
 	min-width: 960px;
-	background:#FFF1DE;
+	background: #FFF1DE;
 	font-family: Helvetica, Arial, sans-serif;
 
 }
@@ -102,5 +101,10 @@ body {
 }
 
 footer {
+	background: #302110;
+	color: #FEEACE;
+}
+
+#social {
 
 }
