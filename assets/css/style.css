@@ -100,16 +100,18 @@ body {
 .description {
 	float: right;
 	background: #B6D149;
-	height: 250px;
+	height: auto;
+	width: 610px;
 	margin-top: 90px;
+	margin-bottom: 40px;
 	padding: 10px;
 }
 
 #info {
 	background: #B6D149;
-	height: 200px;
-	width: 960px;
-	margin-top: 60px;
+	height: auto;
+	width: auto;
+	padding: 10px;
 	clear: both;
 }
 
