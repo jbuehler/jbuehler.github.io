@@ -128,9 +128,10 @@ footer {
 	margin-top: 35px;
 	background: #2E2E2E;
 	color: #EEEEEE;
-	clear: both;
+	
 }
 
 #social {
-
+	position: relative;
+	margin-left: 450px;
 }
