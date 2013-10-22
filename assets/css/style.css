@@ -12,72 +12,80 @@ a {
 }
 
 em {
-	color: #B77029;
+	color: #B6D149;
 	font-style: normal;
 }
 
 p {
-	margin: 20px; 
+	margin: 0;
 }
 
 header {
-	position: relative;
 	top: 0px;
-	width: 100%;
-	background: #302110;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #feeace;
-}
-
-header .content {
 	height: 30px;
-	margin: auto;
-	position: relative;
-	width: 960px;
-
+	width: 100%;
+	position: fixed;
+	font-family: "Carrois Gothic", sans-serif;
 }
+
 	nav {
+		background: #2E2E2E;
 		color: #EEEEEE;
 		margin-left: auto;
 		margin-right: auto;
+		padding-left: 1180px;
+		height: 30px;
+		width: 100%;
 		position: absolute;
+		z-index: 10;
 	}
-
-		nav li { 
-			display: inline;
+		nav ul{
+			margin: 0px;
+			padding: 0px;
 		}
+			nav li {
+				display: inline;
+			}
 
 #logo {
 	background: #2E2E2E;
+	font-size: 42px;
+	position: relative;
+	top: 30px;
+	z-index: -1;
 }
 	#logo #fName {
-		color: #FC9D15;
+		color: #D12E39;
+		margin: 0px 0px 0px 600px;
 	}
 
 	#logo #lName {
-		color: #B77029;
+		color: #43C1D1;
+		margin: 0px 0px 0px 840px;
 	}
 
-#tagline {
-	background: #FDC069;
-	width: 960px;
-}
+	#logo p {
+		font-size: 14px;
+		text-align: right;
+		color: #EEEEEE;
+		width: 55%;
+	}
 
 body {
-	/* testing container
-	width: 100%;
-	height: 100%;
-	*/
 	min-width: 960px;
-	background: #FFF1DE;
-	font-family: Helvetica, Arial, sans-serif;
-
+	margin: auto;
+	background: #6E6E6E;
+	font-family: "Carrois Gothic", sans-serif;
 }
 
 .container {
 	margin-right: auto;
 	margin-left: auto;
+	position: relative;
+	top: 30px;
 	width: 960px;
+	height: 100%;
+	z-index: -1;
 }
 
 .gallery { list-style: none; padding: 0; margin: 0; }
@@ -87,7 +95,7 @@ body {
 .gallery li img { display: block; width: 100%; height: auto; }
 
 #info {
-	background: #FDC069;
+	background: #B6D149;
 	height: 250px;
 	width: 960px;
 }
@@ -101,8 +109,9 @@ body {
 }
 
 footer {
-	background: #302110;
-	color: #FEEACE;
+	background: #2E2E2E;
+	color: #EEEEEE;
+	z-index: 10;
 }
 
 #social {
