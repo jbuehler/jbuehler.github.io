@@ -99,7 +99,7 @@ body {
 	background: #B6D149;
 	height: auto;
 	width: 610px;
-	margin-top: 90px;
+	margin-top: 69px;
 	margin-bottom: 40px;
 	padding: 10px;
 	box-shadow: 2px 2px #EEEEEE;
@@ -107,6 +107,7 @@ body {
 
 .description p {
 	margin: 12px;
+	text-indent: 24px;
 }
 
 #info {
@@ -123,7 +124,7 @@ body {
 }
 
 #info p {
-	margin: 10px;
+	margin: 12px;
 }
 
 footer {
