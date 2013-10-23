@@ -86,16 +86,13 @@ body {
 	width: 960px;
 	height: 100%;
 }
+
 .container ul.gallery { float: left; width: 33.33333333%; }
 
-.gallery { list-style: none; padding: 0; margin: 0; }
+.gallery { list-style: none; padding: 0; margin: 0; clear: both; }
 .gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
 .gallery li a { display: block; margin: 5px; border: 0px solid #3c3c3c;}
 .gallery li img { display: block; width: 100%; height: auto; }
-
-#Gallery1, #Gallery2 {
-	clear: both;
-}
 
 .description {
 	float: right;
@@ -107,11 +104,15 @@ body {
 	padding: 10px;
 }
 
+.description p {
+	margin: 12px;
+}
+
 #info {
 	background: #B6D149;
 	height: auto;
 	width: auto;
-	padding: 10px;
+	padding: 12px;
 	clear: both;
 }
 
