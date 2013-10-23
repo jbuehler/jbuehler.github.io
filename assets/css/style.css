@@ -91,8 +91,8 @@ body {
 
 .gallery { list-style: none; padding: 0; margin: 0; clear: both; }
 .gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
-.gallery li a { display: block; margin: 5px; border: 0px solid #3c3c3c;}
-.gallery li img { display: block; width: 100%; height: auto; }
+.gallery li a { display: block; margin: 5px;}
+.gallery li img { display: block; width: 100%; height: auto; border: 3px solid #2E2E2E; }
 
 .description {
 	float: right;
@@ -102,6 +102,7 @@ body {
 	margin-top: 90px;
 	margin-bottom: 40px;
 	padding: 10px;
+	box-shadow: 2px 2px #EEEEEE;
 }
 
 .description p {
@@ -113,6 +114,7 @@ body {
 	height: auto;
 	width: auto;
 	padding: 12px;
+	box-shadow: 2px 2px #EEEEEE;
 	clear: both;
 }
 
