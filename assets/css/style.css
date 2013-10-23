@@ -22,7 +22,7 @@ p {
 
 header {
 	top: 0px;
-	height: 30px;
+	height: 35px;
 	width: 100%;
 	position: fixed;
 	box-shadow: 0px 0px 10px #6E6E6E;
@@ -35,13 +35,13 @@ header {
 		color: #EEEEEE;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 1180px;
-		height: 30px;
+		padding-left: 1120px;
+		height: 35px;
 		width: 100%;
 	}
 		nav ul{
 			margin: 0px;
-			padding: 0px;
+			padding-top: 8px;
 		}
 			nav li {
 				display: inline;
